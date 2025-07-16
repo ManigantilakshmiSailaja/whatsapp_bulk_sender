@@ -22,15 +22,15 @@ for index, row in contacts.iterrows():
             phone_no=phone,
             message=message,
             wait_time=20,
-            tab_close=False  # See what's happening
+            tab_close=False 
         )
 
         time.sleep(6)
 
         pyautogui.press("enter")
 
-        print(f"✅ Message sent to {name}!\n")
-        time.sleep(15)  # Wait 15s before next message
+        print(f" Message sent to {name}!\n")
+        time.sleep(15) 
 
     except Exception as e:
-        print(f"❌ Failed to send to {name}: {e}\n")
+        print(f" Failed to send to {name}: {e}\n")
