@@ -11,9 +11,9 @@ This project automates sending WhatsApp messages in bulk using Python. It uses `
 ## Technologies Used
 - Python
 - pywhatkit
-- pygui
+- pyautogui
 
 ## How to Run
 1. Install dependencies: `pip install pywhatkit selenium`
-2. Update `numbers.csv` with your phone numbers.
+2. Update `contacts.csv` with your phone numbers.
 3. Run: `python main.py`
