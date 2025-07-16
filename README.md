@@ -17,3 +17,4 @@ This project automates sending WhatsApp messages in bulk using Python. It uses `
 1. Install dependencies: `pip install pywhatkit selenium`
 2. Update `contacts.csv` with your phone numbers.
 3. Run: `python main.py`
+4. you can see my code link:https://github.com/ManigantilakshmiSailaja/whatsapp_bulk_sender
